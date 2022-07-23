@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA543D65288BE56100934E29 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA543D64288BE56100934E29 /* Model.swift */; };
+		DA543D68288BF14C00934E29 /* FocusEntity in Frameworks */ = {isa = PBXBuildFile; productRef = DA543D67288BF14C00934E29 /* FocusEntity */; };
+		DAF465BA288BAAF6003EC49B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF465B9288BAAF6003EC49B /* AppDelegate.swift */; };
+		DAF465BC288BAAF6003EC49B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF465BB288BAAF6003EC49B /* ContentView.swift */; };
+		DAF465C0288BAAFB003EC49B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAF465BF288BAAFB003EC49B /* Assets.xcassets */; };
+		DAF465C3288BAAFB003EC49B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAF465C2288BAAFB003EC49B /* Preview Assets.xcassets */; };
+		DAF465CD288BAAFB003EC49B /* ArtificxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF465CC288BAAFB003EC49B /* ArtificxTests.swift */; };
+		DAF465D7288BAAFC003EC49B /* ArtificxUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF465D6288BAAFC003EC49B /* ArtificxUITests.swift */; };
+		DAF465D9288BAAFC003EC49B /* ArtificxUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF465D8288BAAFC003EC49B /* ArtificxUITestsLaunchTests.swift */; };
+		DAF465E7288BB079003EC49B /* LemonMeringuePie.usdz in Resources */ = {isa = PBXBuildFile; fileRef = DAF465E6288BB079003EC49B /* LemonMeringuePie.usdz */; };
+		DAF465EB288BB0E4003EC49B /* DoubleHotChocolate.usdz in Resources */ = {isa = PBXBuildFile; fileRef = DAF465EA288BB0E4003EC49B /* DoubleHotChocolate.usdz */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAF465C9288BAAFB003EC49B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAF465AE288BAAF6003EC49B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAF465B5288BAAF6003EC49B;
+			remoteInfo = Artificx;
+		};
+		DAF465D3288BAAFC003EC49B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAF465AE288BAAF6003EC49B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAF465B5288BAAF6003EC49B;
+			remoteInfo = Artificx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA543D64288BE56100934E29 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		DAF465B6288BAAF6003EC49B /* Artificx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Artificx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF465B9288BAAF6003EC49B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DAF465BB288BAAF6003EC49B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DAF465BF288BAAFB003EC49B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAF465C2288BAAFB003EC49B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DAF465C8288BAAFB003EC49B /* ArtificxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtificxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF465CC288BAAFB003EC49B /* ArtificxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtificxTests.swift; sourceTree = "<group>"; };
+		DAF465D2288BAAFC003EC49B /* ArtificxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtificxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAF465D6288BAAFC003EC49B /* ArtificxUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtificxUITests.swift; sourceTree = "<group>"; };
+		DAF465D8288BAAFC003EC49B /* ArtificxUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtificxUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DAF465E6288BB079003EC49B /* LemonMeringuePie.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = LemonMeringuePie.usdz; sourceTree = "<group>"; };
+		DAF465EA288BB0E4003EC49B /* DoubleHotChocolate.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = DoubleHotChocolate.usdz; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAF465B3288BAAF6003EC49B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA543D68288BF14C00934E29 /* FocusEntity in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF465C5288BAAFB003EC49B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF465CF288BAAFC003EC49B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DAF465AD288BAAF6003EC49B = {
+			isa = PBXGroup;
+			children = (
+				DAF465B8288BAAF6003EC49B /* Artificx */,
+				DAF465CB288BAAFB003EC49B /* ArtificxTests */,
+				DAF465D5288BAAFC003EC49B /* ArtificxUITests */,
+				DAF465B7288BAAF6003EC49B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DAF465B7288BAAF6003EC49B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAF465B6288BAAF6003EC49B /* Artificx.app */,
+				DAF465C8288BAAFB003EC49B /* ArtificxTests.xctest */,
+				DAF465D2288BAAFC003EC49B /* ArtificxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAF465B8288BAAF6003EC49B /* Artificx */ = {
+			isa = PBXGroup;
+			children = (
+				DAF465B9288BAAF6003EC49B /* AppDelegate.swift */,
+				DAF465BB288BAAF6003EC49B /* ContentView.swift */,
+				DA543D64288BE56100934E29 /* Model.swift */,
+				DAF465E5288BAF91003EC49B /* Models */,
+				DAF465BF288BAAFB003EC49B /* Assets.xcassets */,
+				DAF465C1288BAAFB003EC49B /* Preview Content */,
+			);
+			path = Artificx;
+			sourceTree = "<group>";
+		};
+		DAF465C1288BAAFB003EC49B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DAF465C2288BAAFB003EC49B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DAF465CB288BAAFB003EC49B /* ArtificxTests */ = {
+			isa = PBXGroup;
+			children = (
+				DAF465CC288BAAFB003EC49B /* ArtificxTests.swift */,
+			);
+			path = ArtificxTests;
+			sourceTree = "<group>";
+		};
+		DAF465D5288BAAFC003EC49B /* ArtificxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAF465D6288BAAFC003EC49B /* ArtificxUITests.swift */,
+				DAF465D8288BAAFC003EC49B /* ArtificxUITestsLaunchTests.swift */,
+			);
+			path = ArtificxUITests;
+			sourceTree = "<group>";
+		};
+		DAF465E5288BAF91003EC49B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DAF465EA288BB0E4003EC49B /* DoubleHotChocolate.usdz */,
+				DAF465E6288BB079003EC49B /* LemonMeringuePie.usdz */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAF465B5288BAAF6003EC49B /* Artificx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAF465DC288BAAFC003EC49B /* Build configuration list for PBXNativeTarget "Artificx" */;
+			buildPhases = (
+				DAF465B2288BAAF6003EC49B /* Sources */,
+				DAF465B3288BAAF6003EC49B /* Frameworks */,
+				DAF465B4288BAAF6003EC49B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Artificx;
+			packageProductDependencies = (
+				DA543D67288BF14C00934E29 /* FocusEntity */,
+			);
+			productName = Artificx;
+			productReference = DAF465B6288BAAF6003EC49B /* Artificx.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAF465C7288BAAFB003EC49B /* ArtificxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAF465DF288BAAFC003EC49B /* Build configuration list for PBXNativeTarget "ArtificxTests" */;
+			buildPhases = (
+				DAF465C4288BAAFB003EC49B /* Sources */,
+				DAF465C5288BAAFB003EC49B /* Frameworks */,
+				DAF465C6288BAAFB003EC49B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAF465CA288BAAFB003EC49B /* PBXTargetDependency */,
+			);
+			name = ArtificxTests;
+			productName = ArtificxTests;
+			productReference = DAF465C8288BAAFB003EC49B /* ArtificxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAF465D1288BAAFC003EC49B /* ArtificxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAF465E2288BAAFC003EC49B /* Build configuration list for PBXNativeTarget "ArtificxUITests" */;
+			buildPhases = (
+				DAF465CE288BAAFC003EC49B /* Sources */,
+				DAF465CF288BAAFC003EC49B /* Frameworks */,
+				DAF465D0288BAAFC003EC49B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAF465D4288BAAFC003EC49B /* PBXTargetDependency */,
+			);
+			name = ArtificxUITests;
+			productName = ArtificxUITests;
+			productReference = DAF465D2288BAAFC003EC49B /* ArtificxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAF465AE288BAAF6003EC49B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					DAF465B5288BAAF6003EC49B = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					DAF465C7288BAAFB003EC49B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = DAF465B5288BAAF6003EC49B;
+					};
+					DAF465D1288BAAFC003EC49B = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = DAF465B5288BAAF6003EC49B;
+					};
+				};
+			};
+			buildConfigurationList = DAF465B1288BAAF6003EC49B /* Build configuration list for PBXProject "Artificx" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAF465AD288BAAF6003EC49B;
+			packageReferences = (
+				DA543D66288BF14C00934E29 /* XCRemoteSwiftPackageReference "FocusEntity" */,
+			);
+			productRefGroup = DAF465B7288BAAF6003EC49B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAF465B5288BAAF6003EC49B /* Artificx */,
+				DAF465C7288BAAFB003EC49B /* ArtificxTests */,
+				DAF465D1288BAAFC003EC49B /* ArtificxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAF465B4288BAAF6003EC49B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF465C3288BAAFB003EC49B /* Preview Assets.xcassets in Resources */,
+				DAF465C0288BAAFB003EC49B /* Assets.xcassets in Resources */,
+				DAF465E7288BB079003EC49B /* LemonMeringuePie.usdz in Resources */,
+				DAF465EB288BB0E4003EC49B /* DoubleHotChocolate.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF465C6288BAAFB003EC49B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF465D0288BAAFC003EC49B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAF465B2288BAAF6003EC49B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA543D65288BE56100934E29 /* Model.swift in Sources */,
+				DAF465BC288BAAF6003EC49B /* ContentView.swift in Sources */,
+				DAF465BA288BAAF6003EC49B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF465C4288BAAFB003EC49B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF465CD288BAAFB003EC49B /* ArtificxTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAF465CE288BAAFC003EC49B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAF465D9288BAAFC003EC49B /* ArtificxUITestsLaunchTests.swift in Sources */,
+				DAF465D7288BAAFC003EC49B /* ArtificxUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAF465CA288BAAFB003EC49B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAF465B5288BAAF6003EC49B /* Artificx */;
+			targetProxy = DAF465C9288BAAFB003EC49B /* PBXContainerItemProxy */;
+		};
+		DAF465D4288BAAFC003EC49B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAF465B5288BAAF6003EC49B /* Artificx */;
+			targetProxy = DAF465D3288BAAFC003EC49B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DAF465DA288BAAFC003EC49B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DAF465DB288BAAFC003EC49B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAF465DD288BAAFC003EC49B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Artificx/Preview Content\"";
+				DEVELOPMENT_TEAM = CNK8NS33NT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.Artificx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAF465DE288BAAFC003EC49B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Artificx/Preview Content\"";
+				DEVELOPMENT_TEAM = CNK8NS33NT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.Artificx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DAF465E0288BAAFC003EC49B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CNK8NS33NT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.ArtificxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Artificx.app/Artificx";
+			};
+			name = Debug;
+		};
+		DAF465E1288BAAFC003EC49B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CNK8NS33NT;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.ArtificxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Artificx.app/Artificx";
+			};
+			name = Release;
+		};
+		DAF465E3288BAAFC003EC49B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CNK8NS33NT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.ArtificxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Artificx;
+			};
+			name = Debug;
+		};
+		DAF465E4288BAAFC003EC49B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CNK8NS33NT;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.ArtificxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Artificx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAF465B1288BAAF6003EC49B /* Build configuration list for PBXProject "Artificx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF465DA288BAAFC003EC49B /* Debug */,
+				DAF465DB288BAAFC003EC49B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAF465DC288BAAFC003EC49B /* Build configuration list for PBXNativeTarget "Artificx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF465DD288BAAFC003EC49B /* Debug */,
+				DAF465DE288BAAFC003EC49B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAF465DF288BAAFC003EC49B /* Build configuration list for PBXNativeTarget "ArtificxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF465E0288BAAFC003EC49B /* Debug */,
+				DAF465E1288BAAFC003EC49B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAF465E2288BAAFC003EC49B /* Build configuration list for PBXNativeTarget "ArtificxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAF465E3288BAAFC003EC49B /* Debug */,
+				DAF465E4288BAAFC003EC49B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DA543D66288BF14C00934E29 /* XCRemoteSwiftPackageReference "FocusEntity" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/FocusEntity";
+			requirement = {
+				kind = exactVersion;
+				version = 1.1.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DA543D67288BF14C00934E29 /* FocusEntity */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DA543D66288BF14C00934E29 /* XCRemoteSwiftPackageReference "FocusEntity" */;
+			productName = FocusEntity;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DAF465AE288BAAF6003EC49B /* Project object */;
+}
